@@ -1,6 +1,6 @@
 with
-order as (
-    delect * from {{ ref('RAW_ORDERS') }}
+orders as (
+    select * from {{ ref('RAW_ORDERS') }}
 
 )
 SELECT 
